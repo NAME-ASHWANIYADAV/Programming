@@ -12,6 +12,8 @@ int main(){
    y = x-y;
    x= x-y;
    cout<<x<<y;
+   
+   
     
 
 }
