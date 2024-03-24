@@ -3,7 +3,7 @@ using namespace std;
     void swap(int *p,int *q){
       int temp = *p;
       *p = *q;
-      *q. = temp;
+      *q = temp;
       return;
 
 
