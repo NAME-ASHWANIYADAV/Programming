@@ -15,7 +15,7 @@ int main(){
     cout<<"The size of the vector at this point is "<<v.size()<<endl;
     cout<<"The capacity of the vector at this point is "<<v.capacity()<<endl;
     v.push_back(4);
-    cout<<"The size of the vector at this point is "<<v.size()<<endl;
+    cout<<"The size of the vector cmd at this point is "<<v.size()<<endl;
     cout<<"The capacity of the vector at this point is "<<v.capacity()<<endl;
     //IF you want to update/access
     v[0]=11;
@@ -23,5 +23,5 @@ int main(){
     cout<<v[1]<<" ";
     cout<<v[2]<<" ";
     cout<<v[3]<<" ";
-
+    
 }
