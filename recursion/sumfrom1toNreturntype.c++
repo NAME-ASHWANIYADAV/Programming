@@ -6,5 +6,5 @@ int sum1toN( int n){
 
 }
 int main(){
-cout<<sum1toN(55);
+cout<<sum1toN(43);
 }
