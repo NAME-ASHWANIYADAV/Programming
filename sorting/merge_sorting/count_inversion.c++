@@ -54,6 +54,8 @@ void mergeSort(vector<int> &v){
     mergeSort(b);
     c+= inversion(a,b);
     merge(a,b,v);
+    a.clear();
+    b.clear();
 }
 int main(){
 
